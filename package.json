@@ -1,0 +1,13 @@
+{
+  "name": "apple-stealth-proxy",
+  "version": "1.0.0",
+  "description": "Stealth Apple CDN Proxy for Activation & iCloud",
+  "main": "apple-stealth-proxy.js",
+  "scripts": {
+    "start": "node apple-stealth-proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
